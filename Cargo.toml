@@ -1,6 +1,6 @@
 [package]
 version = "0.1.0"
-name = "{{project-name}}"
+name = "double-pendulum"
 repository = "https://github.com/seed-rs/seed-quickstart"
 authors = ["{{authors}}"]
 description = "App Description"

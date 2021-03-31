@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+        <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <section id="app"></section>
+    <div class="columns">
+        <div class="column is-6 is-offset-3">
+            <section id="app"></section>
+        </div>
+    </div>
     <script type="module">
         import init from '/pkg/package.js';
         init('/pkg/package_bg.wasm');
+    </script>
+    <script src="index.js">
     </script>
 </body>
 
